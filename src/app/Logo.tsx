@@ -1,4 +1,9 @@
-export default function ({ className }: { className?: string }) {
+interface LogoProps {
+  className: string
+}
+
+export const Logo: React.FC<LogoProps> = ({className}) => {
+
   return (
     <svg viewBox="0 0 595.28 841.89" className={className} fill="currentColor">
       <g>
@@ -63,5 +68,5 @@ export default function ({ className }: { className?: string }) {
         />
       </g>
     </svg>
-  );
+  );  
 }

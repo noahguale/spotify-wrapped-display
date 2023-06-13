@@ -1,4 +1,9 @@
-export default function ({ className }: { className?: string }) {
+interface LinkedinProps {
+  className: string
+}
+
+export const LinkedinIcon: React.FC<LinkedinProps> = ({className}) => {
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

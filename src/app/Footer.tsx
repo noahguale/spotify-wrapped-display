@@ -1,10 +1,8 @@
 import cx from "clsx";
 import Link from "next/link";
-import InstagramIcon from "./InstagramIcon";
-import TwitterIcon from "./TwitterIcon";
-import Github from "./Github";
-import LinkedinIcon from "./LinkedinIcon";
-import Logo from "./Logo";
+import {Github} from "./Github";
+import {LinkedinIcon} from "./LinkedinIcon";
+import {Logo} from "./Logo";
 
 export const FOCUS_VISIBLE_OUTLINE = `focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1DB954]`;
 export const LINK_SUBTLE_STYLES = `hover:underline hover:decoration-[#1DB954] hover:underline-offset-2 hover:text-[#1DB954]`;
