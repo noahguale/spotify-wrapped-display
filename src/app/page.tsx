@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center">
       <Header />
-      <video className="w-auto h-auto rounded-[40px]" src="/spotify-wrapped.mov" autoPlay loop muted />
+      <video className="w-[360px] h-[640px] rounded-[40px]" src="/spotify-wrapped.mov" autoPlay loop muted />
       <Footer />
 
     </div>
